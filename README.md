@@ -24,8 +24,8 @@ Place blocks smartly — when neighboring tiles have stacks with the same-colore
 ## 🖼️ Screenshots
 
 ### 🧩 Gameplay
-![Gameplay](<img width="379" height="682" alt="image" src="https://github.com/user-attachments/assets/c8f37968-f2ca-4d1c-9fbf-ebaf0966f644" />
-)
+<img width="382" height="677" alt="image" src="https://github.com/user-attachments/assets/a2dda002-7410-4435-95ef-21ee0bdade58" />
+
 
 ### 🎯 Setting
 ![Merge](<img width="378" height="674" alt="image" src="https://github.com/user-attachments/assets/82215e87-8d55-4d48-8c46-b2b24259ca01" />
