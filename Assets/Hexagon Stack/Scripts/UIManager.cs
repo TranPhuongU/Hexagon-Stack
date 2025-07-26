@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private Slider slider;
     [SerializeField] private Text coinText;
+    [SerializeField] private Text levelText;
     [SerializeField] private GameObject gameoverPanel;
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject gamePanel;
@@ -20,6 +21,8 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         slider.value = 0;
+
+        levelText.text = "Level " + (PlayerPrefs.GetInt("Level") +1); 
 
 
         //gamePanel.SetActive(false);

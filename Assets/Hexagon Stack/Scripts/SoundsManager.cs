@@ -60,6 +60,11 @@ public class SoundsManager : MonoBehaviour
         scoreSound.Play();
     }
 
+    public void PlayButtonSound()
+    {
+        buttonSound.Play();
+    }
+
     public void DisableSounds()
     {
         touchSound.volume = 0;
