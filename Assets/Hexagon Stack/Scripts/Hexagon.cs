@@ -42,15 +42,21 @@ public class Hexagon : MonoBehaviour
         LeanTween.rotateAround(gameObject, rotationAxis, 180,.2f).setEase(LeanTweenType.easeOutSine).setDelay(delay);
     }
 
-    public void Vanish(float delay)
+    public void Vanish(float delay, bool addScore = true)
     {
         LeanTween.cancel(gameObject);
-        LeanTween.scale(gameObject, Vector3.zero, .2f).setEase(LeanTweenType.easeInBack).setDelay(delay).setOnComplete(() => Destroy(gameObject));
+        LeanTween.scale(gameObject, Vector3.zero, .2f)
+            .setEase(LeanTweenType.easeInBack)
+            .setDelay(delay)
+            .setOnComplete(() => Destroy(gameObject));
 
-        LevelManager.instance.currentScore ++;
-        GameManager.instance.coin++;
-
-        PlayerPrefs.SetInt("Coin", GameManager.instance.coin);
+        if (addScore)
+        {
+            LevelManager.instance.currentScore++;
+            GameManager.instance.coin++;
+            PlayerPrefs.SetInt("Coin", GameManager.instance.coin);
+        }
     }
+
 
 }

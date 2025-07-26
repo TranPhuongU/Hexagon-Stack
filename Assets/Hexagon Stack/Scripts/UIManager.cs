@@ -137,7 +137,7 @@ public class UIManager : MonoBehaviour
                 foreach (Hexagon hex in hexagons)
                 {
                     hex.SetParent(null);      // gỡ khỏi hierarchy
-                    hex.Vanish(delay);        // hiệu ứng biến mất
+                    hex.Vanish(delay, false);        // hiệu ứng biến mất
                     stack.Remove(hex);        // xóa khỏi danh sách stack
                     delay += 0.05f;           // hiệu ứng nối tiếp
                 }
