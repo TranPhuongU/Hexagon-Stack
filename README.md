@@ -28,8 +28,7 @@ Place blocks smartly — when neighboring tiles have stacks with the same-colore
 
 
 ### 🎯 Setting
-![Merge](<img width="378" height="674" alt="image" src="https://github.com/user-attachments/assets/82215e87-8d55-4d48-8c46-b2b24259ca01" />
-)
+<img width="378" height="678" alt="image" src="https://github.com/user-attachments/assets/4c6b259e-913b-4730-91a4-85908234860d" />
 
 ---
 
